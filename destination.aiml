@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>I WANT TO GO TO *</pattern>
+        <template>
+            Your destination is <set name="destination"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>TODAY I WANT TO TRAVEL TO *</pattern>
+        <template>
+            Your destination is <set name="destination"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>I AM GOING TO *</pattern>
+        <template>
+            Your destination is <set name="destination"><star/></set>.
+        </template>
+    </category>
+</aiml>

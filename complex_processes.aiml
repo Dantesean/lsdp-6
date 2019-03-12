@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     <category>
-        <pattern>I WANT TO GO TO *</pattern>
-        <template>
-            Your destination is <set name="destination"><star/></set>.
-        </template>
-    </category>
-    
-    <category>
         <pattern>I WANT TO GO FROM * TO *</pattern>
         <template>
             Your destination is <set name="destination"><star index="2"/></set>, leaving from <set name="origin"><star index="1"/></set>.
         </template>
+        <template>
+            At what time would you like to arrive?
+        </template>
     </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>At what time would you like to arrive?</that>
+        <template>
+            So you want to go from <get name="origin"/> to <get name="destination" /> and arrive ate <set name="arrival_time"><star/></set>?
+        </template>
+    </category>
+    <category>
+        <pattern>YES</pattern>
+        <that>So you want to go from <get name="origin"/> to <get name="destination" /> at <set name="arrival_time"><star/></set>?</that>
+        <template>
+            Alright, a train will depart from <get name="origin"/> at <get name="arrival_time" />
+        </template>
+    </category>
+
     
     <category>
         <pattern>WHERE AM I</pattern>
@@ -20,5 +32,4 @@
             You told me you are in <get name="origin"/>.
         </template>
     </category>
-    
 </aiml>
