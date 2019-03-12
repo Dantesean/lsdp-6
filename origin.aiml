@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>I AM IN *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>I COME FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>I AM FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT TO TRAVEL FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>I AM DEPARTURING FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>I AM LEAVING FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>MY DAY WILL START IN *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>I WILL BE LEAVING FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>I WOULD LIKE TO TRAVEL FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>WE COME FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>WE ARE TRAVELING FROM *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+    <category>
+        <pattern>WE ARE NOW IN *</pattern>
+        <template>
+            Alright, I noted it! You are currently in <set name="origin"><star/></set>.
+        </template>
+    </category>
+</aiml>
