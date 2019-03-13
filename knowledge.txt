@@ -1,0 +1,686 @@
+{
+ 'Amsterdam' :
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 47
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 62
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 70
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Rotterdam':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Den Haag':
+  ['Rotterdam' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Leiden':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Utrecht':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Heerlen':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 20
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Maastricht':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 20
+    }, 'Amsterdam':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Groningen':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Leeuwarden':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Middelburg':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Delft':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Almere':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+ 'Almere':
+  ['Den Haag' :
+   {
+     'TrainsHour': 5
+     'TravelHour': (8, 23)
+     'TravelTime': 10
+    }, 'Leiden':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 18
+    }, 'Utrecht':
+    {
+     'TrainsHour': 8
+     'TravelHour': (8, 23)
+     'TravelTime': 60
+    }, 'Heerlen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Maastricht':
+    {
+     'TrainsHour':2
+     'TravelHour': (8, 23)
+     'TravelTime': 150
+    }, 'Groningen':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Leeuwarden':
+    {
+     'TrainsHour': 2
+     'TravelHour': (8, 23)
+     'TravelTime': 120
+    }, 'Rotterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 90
+    }, 'Middelburg':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 180
+    }, 'Delft':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 7
+    }, 'Amsterdam':
+    {
+     'TrainsHour': 4
+     'TravelHour': (8, 23)
+     'TravelTime': 42
+    }],
+}
