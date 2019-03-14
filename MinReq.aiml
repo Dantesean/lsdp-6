@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>WHAT TRAINS ARE LEAVING AT *</pattern>
+      <template>
+        <think><set name="departure_time"><star/></set></think>
+        <condition name="origin">
+          <li value="">Where are you leaving from?</li>
+          <li>
+            These are the trains leaving at <get name="departure_time"></get> from <get name="origin"></get>.
+            <think><set name="leavingTrains">True</set></think>
+          </li>
+        </condition>
+      </template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <that>WHERE ARE YOU LEAVING FROM</that>
+    <template>
+      <think><set name="origin"><star/></set></think>
+      These are the trains leaving at <get name="departure_time"></get> from <get name="origin"></get>.
+      <think><set name="leavingTrains">True</set></think>
+    </template>
+  </category>
+
+    <category>
+        <pattern>WHAT TRAINS ARE ARRIVING AT *</pattern>
+        <template>
+          <think><set name="arrival_time"><star/></set></think>
+          <condition name="origin">
+            <li value="">Where are the trains to arrive?</li>
+            <li>
+              These are the trains arriving at <get name="arrival_time"></get> at <get name="origin"></get>.
+              <think><set name="arrivingTrains">True</set></think>
+            </li>
+          </condition>
+        </template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>WHERE ARE THE TRAINS TO ARRIVE</that>
+      <template>
+        <think><set name="origin"><star/></set></think>
+        These are the trains arriving at <get name="departure_time"></get> at <get name="origin"></get>.
+        <think><set name="arrivingTrains">True</set></think>
+      </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO GO TO *</pattern>
+        <template>
+          <think><set name="destination"><star/></set></think>
+          <condition name="origin">
+            <li value="">Where are you traveling from?</li>
+            <li>
+              <condition name="departure_time">
+                <li value="">At what time are you leaving?</li>
+                <li>
+                  <think><set name="trainToLeaving">True</set></think>
+                </li>
+              </condition>
+            </li>
+          </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>I WANT TO ARRIVE AT *</pattern>
+        <template>
+          <think><set name="destination"><star/></set></think>
+          <condition name="origin">
+            <li value="">Where are you traveling from?</li>
+            <li>
+              <condition name="departure_time">
+                <li value="">At what time are you leaving?</li>
+                <li>
+                  <think><set name="trainToLeaving">True</set></think>
+                </li>
+              </condition>
+            </li>
+          </condition>
+        </template>
+    </category>
+
+    <category>
+      <pattern>I WANT TO ARRIVE AT * AT *</pattern>
+      <template>
+        <think><set name="destination"><star index="1"/></set></think>
+        <think><set name="arrival_time"><star index="2"/></set></think>
+        <condition name="origin">
+          <li value="">Where are you traveling from today?</li>
+          <li>
+            <think><set name="trainToArriving">True</set></think>
+          </li>
+        </condition>
+      </template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>WHERE ARE YOU TRAVELING FROM</that>
+      <template>
+        <think><set name="origin"><star/></set></think>
+        <condition name="departure_time">
+                <li value="">At what time are you leaving?</li>
+                <li>
+                  <think><set name="trainToLeaving">True</set></think>
+                </li>
+              </condition>
+      </template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>AT WHAT TIME ARE YOU LEAVING</that>
+      <template>
+        <think><set name="departure_time"><star/></set></think>
+        <think><set name="trainToLeaving">True</set></think>
+      </template>
+    </category>
+
+    <category>
+      <pattern>*</pattern>
+      <that>WHERE ARE YOU TRAVELING FROM TODAY</that>
+      <template>
+        <think><set name="origin"><star/></set></think>
+        <think><set name="trainToArriving">True</set></think>
+      </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE LAST TRAIN TO *</pattern>
+        <template>
+          <think><set name="destination"><star/></set></think>
+          <condition name="origin">
+            <li value="">Where are you traveling from this late?</li>
+            <li>
+            <think><set name="lastTrain">True</set></think>
+            </li>
+          </condition>
+        </template>
+    </category>
+    
+    <category>
+      <pattern>*</pattern>
+      <that>WHERE ARE YOU TRAVELING FROM THIS LATE</that>
+      <template>
+        <think><set name="origin"><star/></set></think>
+        <think><set name="lastTrain">True</set></think>
+      </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS THE FIRST TRAIN TO *</pattern>
+        <template>
+          <think><set name="destination"><star/></set></think>
+          <condition name="origin">
+            <li value="">Where are you traveling from this early?</li>
+            <li>
+            <think><set name="firstTrain">True</set></think>
+            </li>
+          </condition>
+        </template>
+    </category>
+    
+    <category>
+      <pattern>*</pattern>
+      <that>WHERE ARE YOU TRAVELING FROM THIS EARLY</that>
+      <template>
+        <think><set name="origin"><star/></set></think>
+        <think><set name="firstTrain">True</set></think>
+      </template>
+    </category>
+</aiml>
